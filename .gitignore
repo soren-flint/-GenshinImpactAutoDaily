@@ -1,0 +1,22 @@
+# --- .NET ---
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+.vs/
+
+# --- 编译输出（约 155MB，不在仓库里，改走 GitHub Releases）---
+自动化/publish/
+
+# --- 运行时文件（每人本地自己的数据）---
+Execution-Log.md
+status.txt
+.bettergi_last_run
+config.json
+
+# --- 操作系统 ---
+Thumbs.db
+Desktop.ini
+
